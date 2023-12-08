@@ -7,7 +7,7 @@ env:
 on:
   push:
     branches:
-      - oneforall
+      - master
   pull_request:
     branches:
       - oneforall

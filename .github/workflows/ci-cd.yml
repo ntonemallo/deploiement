@@ -7,10 +7,10 @@ env:
 on:
   push:
     branches:
-      - master
+      - oneforall
   pull_request:
     branches:
-      - master
+      - oneforall
 
 jobs:
   test:

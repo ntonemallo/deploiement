@@ -14,16 +14,16 @@ describe('AppComponent', () => { //describe est une fonction de jasmin qui perme
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ci-cd-introduction'`, () => {
+  it(`should have as title 'NTONE MALLO Christian-Ryan'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ci-cd-introduction');
+    expect(app.title).toEqual('NTONE MALLO Christian-Ryan');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ci-cd-introduction app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('NTONE MALLO Christian-Ryan app is running!');
   });
 });
